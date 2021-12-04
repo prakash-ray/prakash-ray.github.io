@@ -1,0 +1,75 @@
+.intro {
+    padding: 5% 5% 0% 5%;
+    text-align: center;
+}
+/* .menus {
+    background-image: url("../img/whitebrick.jpg");
+    background-size: contain;
+    background-repeat: repeat;
+    padding-bottom: 5%;
+} */
+
+.buttonone {
+	padding: 10px;
+	background: #f0ab51;
+	border-radius: 15px;
+	color: #704523;
+	text-decoration: none;
+	transition: 0.5s;
+  }
+  
+.buttonone:hover {
+	background: #918c86;
+}
+
+.button:focus {
+    color: red;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    gap: 20px;
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-position: center; 
+    opacity: .75;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card > h2 {
+    color: white;
+    text-align: center;
+    font-size: 4em;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+#dining {
+    background-image: url("../img/dining.jpg");
+}
+
+#brunch {
+    background-image: url("../img/brunch.jpg");
+}
+
+#drinks {
+    background-image: url("../img/drinks.jpg");
+}
+
+.card:hover {
+    opacity: 1.0;
+}
+
+@media (min-width: 768px) {
+
+    .container {
+        flex-direction: row;
+    }
+}

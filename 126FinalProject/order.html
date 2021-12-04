@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Menus</title>
+    <link rel="stylesheet" href="css/styorder.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            Ichiraku Ramen
+        </h1>
+    </header>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menus.html">Menus</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a class="buttonone" href="order.html">
+                    Order Now
+                </a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="upper">
+            <h2>Place an Online Order</h2>
+            <p>123 Franklin St <br> Chapel Hill, NC 27514</p>
+            <p>Order Online for Pickup or Delivery</p>
+            <div class="menu-select">
+                <p>Select a menu:</p>
+                <div>
+                    <input type="radio" id="dining" value="dining" checked>
+                    <label for="dining">Dining</label>
+                </div>
+                <div>
+                    <input type="radio" id="brunch" value="brunch">
+                    <label for="brunch">Brunch</label>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="order">
+            <div class="menu-items">
+                <ul>
+                    <li id="selected">Ramen</li>
+                    <li>Appetizers</li>
+                    <li>Small Plates</li>
+                    <li>Rice Bowls</li>
+                    <li>Desserts</li>
+                </ul>
+            </div>
+            <div class="active-menu">
+                <div class="card">
+                    <p>Shoyu Ramen</p>
+                    <p class="price">$14.50</p>
+                    <p>A chicken-based broth flavored with shoyu (soy sauce). Served w. chashu, ajitsuke egg, enoki,
+                        kikurage, scallions, nori, bok choy, & bamboo.</p>
+                </div>
+                <div class="card">
+                    <p>Vegetarian Ramen</p>
+                    <p class="price">$12.50</p>
+                    <p>Our aromatic coconut milk-based curry broth, topped w. crispy tofu, enoki, kikurage, scallions,
+                        purple cabbage, basil, lime, bok choy, & kale noodles.</p>
+                </div>
+                <div class="card" id="menu-selected">
+                    <p>Shio Ramen</p>
+                    <p class="price">$15.50</p>
+                    <p>Seared chicken w. our fragrant coconut milk-based curry broth, topped w. ajitsuke egg, enoki,
+                        kikurage, scallions, cabbage, basil, lime, & bok choy.</p>
+                </div>
+                <div class="card">
+                    <p>Tonkotsu Ramen</p>
+                    <p class="price">$16.50</p>
+                    <p>A rich pork bone broth topped w. chashu, ajitsuke egg, enoki, kikurage, corn, scallions, bok
+                        choy, & nori.</p>
+                </div>
+                <div class="card">
+                    <p>Miso Ramen</p>
+                    <p class="price">$12.50</p>
+                    <p>A chicken-based broth flavored w. Japanese fermented soybean paste. Served w. chashu, ajitsuke
+                        egg, enoki, kikurage, scallions, nori, bok choy, & bamboo.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="order-details">
+        <h2>Order Details</h2>
+        <br>
+        <p>Item(s):</p>
+        <p>(1) Miso Ramen</p>
+        <br>
+        <h3>Sub-Total: $12.50</h3>
+        <div class="actions">
+            <a href="#" class="button">
+                <p>Pay Now</p>
+            </a>
+        </div>
+    </div>
+    <footer>
+        <p>Page by Reshmasai Malleedi and Prakash Ray</p>
+        <p>All rights reserved. Copyright, etc.</p>
+    </footer>
+</body>

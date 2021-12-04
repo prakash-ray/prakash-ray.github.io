@@ -1,0 +1,113 @@
+* {
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  background-color: #DE7800;
+  color: white;
+  padding: 1%;
+  justify-content: center;
+}
+
+nav {
+  background-color: #929292; 
+  display: flex;
+  justify-content: center;
+  font-size: medium;
+  font-weight: 800;
+  color: white;
+  padding: 1%;
+  min-height: 5vh;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color:white;
+    transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover{
+    color: black;
+}
+
+.nav-links li a:focus {
+  color: red;
+}
+
+.button {
+	padding: 10px;
+	background: #f0ab51;
+	border-radius: 15px;
+	color: #704523;
+	text-decoration: none;
+	transition: 0.5s;
+  }
+  
+.button:hover {
+	background: #918c86;
+}
+
+.button:focus {
+  color: red;
+}
+
+.restaurant-image {
+  min-height: 40vh;
+  background-image: url("../img/restaurant.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.content {
+  background-color: white;
+  padding: 10%;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 5%;
+}
+
+.actions > a {
+  font-size: 1.75em;
+}
+
+footer {
+    font-size: x-small;
+    background-color: #929292; 
+    padding: 1%;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+
+  .restaurant-image {
+    min-height: 65vh;
+    height: 100%;
+  }
+  
+  .nav-links li{
+    padding: 0px 20px;
+  }
+
+  .actions {
+    flex-direction: row;
+  }
+
+  
+}
+
