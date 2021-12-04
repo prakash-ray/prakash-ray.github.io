@@ -2,12 +2,6 @@
     padding: 5% 5% 0% 5%;
     text-align: center;
 }
-/* .menus {
-    background-image: url("../img/whitebrick.jpg");
-    background-size: contain;
-    background-repeat: repeat;
-    padding-bottom: 5%;
-} */
 
 .buttonone {
 	padding: 10px;
@@ -34,8 +28,8 @@
 }
 
 .card {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     background-size: cover;
     background-position: center; 
     opacity: .75;
@@ -71,5 +65,8 @@
 
     .container {
         flex-direction: row;
+        padding: 1%;
+        flex-wrap: wrap;
     }
+
 }

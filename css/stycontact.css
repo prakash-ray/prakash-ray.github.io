@@ -15,10 +15,12 @@ nav {
     background-color: #929292;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     font-size: medium;
     font-weight: 800;
     color: white;
     padding: 1%;
+    min-height: 5vh;
   }
 
 .nav-links li{
@@ -55,6 +57,15 @@ nav {
     color: red;
   }
 
+  button {
+    padding: 10px;
+    background: #f0ab51;
+    border-radius: 15px;
+    color: #704523;
+    text-decoration: none;
+    transition: 0.5s;
+    }
+
 .container {
     display: flex;
     margin: 5vh 0;
@@ -64,9 +75,10 @@ nav {
 .card {
     background-color: white;
     padding: 1rem;
-    width: 100%;
+    width: 80%;
     border-radius: 20px;
 }
+
 
 form {
     margin: 10px auto;
